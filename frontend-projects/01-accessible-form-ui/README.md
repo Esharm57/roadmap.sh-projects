@@ -1,0 +1,1 @@
+This project is a web UI design which was supposed to be made with HTML and CSS only but I added Javascript as it was heavily needed to meet the design shown. it is a design for accessible-meaning that in complains with the accessibility guideline form. https://roadmap.sh/projects/accessible-form-ui

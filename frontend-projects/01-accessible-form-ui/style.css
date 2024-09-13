@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto Mono';
+}
+
+p {
+    margin-bottom: 7px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 700px;
+}
+
+.userInput {
+    width: 350px;
+    margin-left: 0;
+    padding: 30px 50px 30px 50px;
+}
+
+.password { 
+    position: relative;
+    margin-top: 3px;
+    margin-bottom: 25px;
+}
+.password input { background:#fff; display:block; width: 100%; box-sizing: border-box; }
+.password button { position: absolute; top: -2px; right: 0px; background-color: none; border: none;}
+.password button img { position: absolute; top: 9px; right: 10px;}
+
+.textBox {
+    width: 280px;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 7px 9px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-family: 'roboto mono';
+}
+
+.textBox::placeholder {
+    color: lightgrey;
+}
+
+.updateProfile {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 9px;
+    font-size: 20px;
+    width: 280px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    font-family: 'roboto mono';
+}
+
+.checkList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.progressBar {
+    width: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 30px;
+}
+
+.checkListHeader {
+    font-size: 19px;
+    margin-top: 180px;
+    margin-bottom: 30px;
+
+}
+
+.checkListItems {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    width: 200px;;
+    height: 220px;
+    padding: 20px 7px 20px 30px;
+    margin-bottom: 0;
+    border-radius: 30px;
+}
+
+.completeTask {
+    text-decoration: line-through;
+    font-size: 13px;
+    color: grey;
+}
+
+.incompleteTask {
+    font-size: 13px;
+}

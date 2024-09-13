@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form UI</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel = 'stylesheet' href = 'style.css'>
+        
+    </head>
+    <body>
+        <div class = 'form'>
+            <div class = 'userForm'>
+                <div class = 'userInput'>
+                    <p>Full Name</p>
+                    <input class = 'textBox nameInput' type = 'text' placeholder = 'What should we call you?'>
+                    <p>Email</p>
+                    <input class = 'textBox emailInput' type = 'text' placeholder = "What is you're email?">
+                    <p>Enter Password</p>
+                    <div class="password">
+                        <input class = 'textBox passwordInput' type = 'password' placeholder = 'xxxxxxxxxx'>
+                        <button onclick="togglePasswordVisibility('passwordInput', 'js-eyeImg1')">
+                            <img class = 'js-eyeImg1' src="images/hide.png" width=25>
+                        </button>
+                    </div>
+                    <p>Confirm Password</p>
+                    <div class="password">
+                        <input class = 'textBox passwordConfirm' type = 'password' placeholder = 'xxxxxxxxxx'>
+                        <button onclick="togglePasswordVisibility('passwordConfirm', 'js-eyeImg2')">
+                            <img class = 'js-eyeImg2' src="images/hide.png" width=25>
+                        </button>
+                    </div>
+                    <button class = 'updateProfile'>
+                        Update Profile
+                    </button>
+                    
+                </div>
+                <div class = 'checkList'>
+                    <img class = 'progressBar' src = 'images/zero.png'>
+                    <div class = 'checkListHeader'>
+                        Profile Completeness
+                    </div>
+                    <div class = 'checkListItems'>
+                        <p class = 'completeTask'>Create Account</p>
+                        <p class = 'completeTask'>Update Roadmap Progress</p>
+                        <p class = 'completeTask'>Setup Public Profile</p>
+                        <p class = 'incompleteTask'>Complete your First Project</p>
+                        <p class = 'incompleteTask'>Invite your Friends</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
