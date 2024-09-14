@@ -1,21 +1,13 @@
 # Basic HTML Website
 
 ## Goal
-In this project, you are required to create a simple HTML only website with multiple pages. The website should have following pages:
+In this project, you will style the HTML website structure you created previously in a different project. The focus will be on learning how to use CSS to create responsive layouts, apply color and typography, and enhance the overall design of your website.
 
-Homepage
-Projects
-Articles
-Contact
-The website should have a navigation bar that should be present on all pages and link to all the pages.
+### Your submission should include:
 
-You are not required to style the website, you are only required to create the structure of the website using HTML. Goals of this project are:
+1. A fully styled, responsive website with the same structure as the previous project.
+2. Consistent use of a chosen color scheme and typography.
+3. Proper use of CSS techniques like Flexbox, media queries, and the box model.
+4. A responsive navigation bar and well-styled contact form.
 
-Learn how to create multiple pages in a website.
-Structure a website using HTML in a semantic way.
-Structure in a way that you can easily add styles later.
-Add SEO meta tags to the website.
-
-[source](https://roadmap.sh/projects/basic-html-website)
-
-P.S. However i used css to make the design as it was more interesting and challenging for me
+[source](https://roadmap.sh/projects/portfolio-website)
