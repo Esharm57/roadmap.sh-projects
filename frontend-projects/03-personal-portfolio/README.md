@@ -1,6 +1,7 @@
 # Personal Portfolio
 
 ## Goal
+
 In this project, you will style the HTML website structure you created previously in a different project. The focus will be on learning how to use CSS to create responsive layouts, apply color and typography, and enhance the overall design of your website.
 
 ### Your submission should include:
