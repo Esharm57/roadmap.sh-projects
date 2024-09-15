@@ -1,4 +1,4 @@
-# Changelog Component
+# Testimonial Cards
 
 ## Goal
 
