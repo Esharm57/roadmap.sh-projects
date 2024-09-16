@@ -1,0 +1,97 @@
+p {
+    font-family: "Roboto Mono";
+}
+
+table {
+    font-family: "Roboto Mono";
+    font-size: 17px;
+    margin-left: 19px;
+    border: 1px solid black;
+    row-gap: 2px;
+    column-gap: 2px;
+    padding: 5px;
+    text-align: center;
+}
+
+tr, th, td {
+    margin: 0;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 1px;
+    text-align: center;
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+.containerDate {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.dateInput {
+    font-size: 15px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Roboto Mono";
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 250px;
+}
+
+.dateInput:focus {
+    outline: none;
+}
+
+.submitBtn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    left: -35px;
+    border-left: 1px solid black;
+    transition: 0.01s;
+}
+
+.submitBtn:active {
+    border: 1px solid red;
+}
+
+.calendarIcon {
+    width: 20px;
+}
+
+.containderCalendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+.monthYear {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 19px;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.previousMonth, .nextMonth {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+}
