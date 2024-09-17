@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabs</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel = 'stylesheet' href = 'style.css'>
+        <link rel="icon" href="pfp_real.png" type="image/png">
+    </head>
+    <body>
+        <div class="header">
+            <div class="tab">
+                <button class="tabButton firstTab active" onclick="tabClick('firstTab')">First Tab</button>
+            </div>
+            <div class="tab">
+                <button class="tabButton secondTab" onclick="tabClick('secondTab')">Second Tab</button>
+            </div>
+            <div class="tab">
+                <button class="tabButton thirdTab" onclick="tabClick('thirdTab')">Third Tab</button>
+            </div>
+            <div class="tab">
+                <button class="tabButton fourthTab" onclick="tabClick('fourthTab')">Fourth Tab</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="content firstContent">
+                <p class="scentence">Clicking each tab should hide the content of the current tab and show the content of the clicked tab.</p>
+                <img src = "images/black-guy-wazzup.jpg">
+            </div>
+
+            <div class="content secondContent hidden">
+                <p class="title1">wazzup!</p>
+                <img src = "images/scream-wazzup.jpg">
+            </div>
+
+            <div class="content thirdContent hidden">
+                <p class="title2">wazzup!!!!</p>
+                <img src = "images/white-guy-wazzup.jpg">
+            </div>
+
+            <div class="content fourthContent hidden">
+                <p class="title3">WAZZZZUUPPPP!!!!!</p>
+                <img src = "images/end-wazzup.jpg">
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>  
