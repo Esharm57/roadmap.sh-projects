@@ -203,3 +203,76 @@ body {
     text-decoration: none;
     color: blue;
 }
+
+.cookieConsent {
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 10px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.cookieImage {
+    width: 40px;
+    margin-bottom: 70px;
+}
+
+.cookieButton {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: "roboto mono";
+    border: none;
+    border-radius: 10px;
+    padding: 10px 32.8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.cookieButton:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.cookieButton:active {
+    background-color: rgb(167, 167, 167);
+    color: black;
+}
+
+.cookieX {
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+    top: -260px;
+    left: 175px;
+    margin-bottom: -20px;
+}
+
+.cookieXButton {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 3px 10px;
+}
+
+.cookieXButton:hover {
+    cursor: pointer;
+    background-color: rgb(66, 66, 66);
+}
+
+.cookieXButton:active {
+    background-color: rgb(167, 167, 167);
+}
+
+.hidden {
+    visibility: hidden;
+}
