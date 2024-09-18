@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restricted Textarea</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel = 'stylesheet' href = 'style.css'>
+        <link rel="icon" href="pfp_real.png" type="image/png">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Restricted Textarea</h1>
+            <p>Enter text here: </p>
+            <textarea class="textArea js-textarea" placeholder="Enter text here..." onkeydown="textLimit()"></textarea>
+
+            <p class="textLimit js-textlimit">0/250</p>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

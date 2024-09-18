@@ -1,0 +1,36 @@
+body {
+    font-family: 'roboto mono';
+    min-height: 669px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    min-height: 200px;
+    width: 700px;
+    border: 2px solid black;
+}
+
+.textArea {
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+    resize: none;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.textLimit {
+    font-size: 12px;
+    position: relative;
+    margin-bottom: -30px;
+    bottom: 70px;
+    left: 282px;
+}
+
+.limitReached {
+    color: red;
+}
