@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dropdown</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel = 'stylesheet' href = 'style.css'>
+        <link rel="icon" href="pfp_real.png" type="image/png">
+    </head>
+    <body>
+        <p class="title">Dropdown</p>
+        <div class="container">
+            <div>
+                <div class="dropdown">
+                    <p class="item1">Select An Item</p>
+                    <button class="dropdownButton dropButton1" onclick="dropdownButtonClicked('1')">v</button>
+                </div>
+                <div class="dropdownContent content1 hidden">
+                    <div class="dropdownItem" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                        <button class="dropdownItemButton drop1Choice1" onclick="dropdownItemClicked('1', '1')">First Choice</button>
+                    </div>
+                    <div class="dropdownItem">
+                        <button class="dropdownItemButton drop1Choice2" onclick="dropdownItemClicked('1', '2')">Second Choice</button>
+                    </div>
+                    <div class="dropdownItem">
+                        <button class="dropdownItemButton drop1Choice3" onclick="dropdownItemClicked('1', '3')">Third Choice</button>
+                    </div>
+                    <div class="dropdownItem" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+                        <button class="dropdownItemButton drop1Choice4" onclick="dropdownItemClicked('1', '4')">Fourth Choice</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="dropdown">
+                    <p class="item2">Select An Item</p>
+                    <button class="dropdownButton dropButton2" onclick="dropdownButtonClicked('2')">v</button>
+                </div>
+                <div class="dropdownContent content2 hidden">
+                    <div class="dropdownItem" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                        <button class="dropdownItemButton drop2Choice1" onclick="dropdownItemClicked('2', '1')">First Choice</button>
+                    </div>
+                    <div class="dropdownItem">
+                        <button class="dropdownItemButton drop2Choice2" onclick="dropdownItemClicked('2', '2')">Second Choice</button>
+                    </div>
+                    <div class="dropdownItem">
+                        <button class="dropdownItemButton drop2Choice3" onclick="dropdownItemClicked('2', '3')">Third Choice</button>
+                    </div>
+                    <div class="dropdownItem" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+                        <button class="dropdownItemButton drop2Choice4" onclick="dropdownItemClicked('2', '4')">Fourth Choice</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src = 'script.js'></script>
+    </body>
+</html>
