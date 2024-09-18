@@ -1,0 +1,56 @@
+body {
+    font-family: 'roboto mono';
+    min-height: 669px;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.accordian {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accBox1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.accButton {
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.accButton:hover {
+    cursor: pointer;
+}
+
+.accBox2 {
+    width: 498px;
+    color: black;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.hidden {
+    display: none;
+}

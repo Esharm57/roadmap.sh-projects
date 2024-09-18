@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accordion</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel = 'stylesheet' href = 'style.css'>
+        <link rel="icon" href="pfp_real.png" type="image/png">
+    </head>
+    <body>
+        <div class="container">
+            <p class="title">Accordion</p>
+            <div>
+                <div class="accordian">
+                    <div class="accBox1">
+                        <p class="js-question1">What is roadmap.sh?</p>
+                        <button class="accButton accButton1" onclick="ifHidden('1')">v</button>
+                    </div>
+
+                    <div class="accBox2 js-accBox1 hidden">
+                        <p class="js-answer1">roadmap.sh contains community-curated roadmaps, study plans, paths, and resources for developers. There are role-based roadmaps, listing skills you should know for any given role, as well as skill-based roadmaps listing items to learn for any given skill.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="accordian">
+                    <div class="accBox1">
+                        <p class="js-question2">What are the plans for roadmap.sh?</p>
+                        <button class="accButton accButton2" onclick="ifHidden('2')">v</button>
+                    </div>
+
+                    <div class="accBox2 js-accBox2 hidden">
+                        <p class="js-answer2">Our long-term plan is to make roadmap.sh a go-to place for developers whenever they plan on learning something new. We started with roadmaps, guides, videos and other visual content but we plan on introducing best practices, best-practices for certain tasks, quizzes to test your knowledge and prepare yourself for the interviews, project ideas to work on while following the roadmaps, public profiles to share your progress and interact with the other learners and so on.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="accordian">
+                    <div class="accBox1">
+                        <p class="js-question3">How is roadmap.sh built?</p>
+                        <button class="accButton accButton3" onclick="ifHidden('3')">v</button>
+                    </div>
+
+                    <div class="accBox2 js-accBox3 hidden">
+                        <p class="js-answer3">The website is built with Astro and Tailwind and is deployed to GitHub pages. The project is open-core and the codebase can be found on GitHub</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="accordian">
+                    <div class="accBox1">
+                        <p class="js-question4">How are roadmaps created?</p>
+                        <button class="accButton accButton4" onclick="ifHidden('4')">v</button>
+                    </div>
+
+                    <div class="accBox2 js-accBox4 hidden">
+                        <p class="js-answer4">The project has a strong community that powers everything on the website. It is the 7th most starred opensource project on GitHub and gets visited by hundreds of thousands of developers every month. We also have newsletter with 150,000+ developers. All the roadmaps are created and reviewed by community and several subject matter experts. Also, anyone can suggest changes to any roadmap and we have a process to review and approve them.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
